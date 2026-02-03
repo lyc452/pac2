@@ -1,5 +1,5 @@
 {
-"server": "98.142.247.21:39228",
+"server": "5.83.129.153:20088",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -30,3 +30,5 @@
 "fast_open": true,
 "hop_interval": 120
 }
+
+
