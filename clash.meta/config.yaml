@@ -1,4 +1,4 @@
-secret: dongtaiwang.com
+secret: alvin9999.com
 mixed-port: 7890
 allow-lan: false
 log-level: info
@@ -13,11 +13,11 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: https://github.com/Alvin9999-newpac/fanqiang/wiki  
+  - name: alvin9999.com  
     type: hysteria  
-    server: 89.144.35.30
+    server: ip1.758733.xyz
     port: 23008
-    auth-str: dongtaiwang.com
+    auth-str: alvin9999.com
     sni: apple.com
     skip-cert-verify: true
     alpn:
@@ -25,7 +25,7 @@ proxies:
     protocol: udp
     up: "11 Mbps"
     down: "55 Mbps"
-  - name: dongtaiwang.com_1                     
+  - name: alvin9999.com_1                     
     type: hysteria
     server: 5.178.101.33
     port: 23008
@@ -37,7 +37,7 @@ proxies:
     protocol: udp
     up: "11 Mbps"
     down: "55 Mbps"
-  - name: dongtaiwang.com_2                     
+  - name: alvin9999.com_2                     
     type: vless
     server: 195.154.200.13
     port: 17401
@@ -61,7 +61,7 @@ proxies:
         enabled: true
         up: 50
         down: 100
-  - name: dongtaiwang.com_3                     
+  - name: alvin9999.com_3                     
     type: hysteria
     server: 2001:bc8:32d7:402::3
     port: 20001
@@ -73,7 +73,7 @@ proxies:
     protocol: udp
     up: "11 Mbps"
     down: "55 Mbps"
-  - name: dongtaiwang.com_4                     
+  - name: alvin9999.com_4                     
     type: hysteria
     server: 2001:bc8:32d7:402::4
     port: 20001
@@ -91,62 +91,62 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
   - name: ♻️ 自动选择
     type: fallback              
     url: "https://www.gstatic.com/generate_204"
     interval: 5
     proxies:
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,11 +169,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://github.com/Alvin9999-newpac/fanqiang/wiki
-      - dongtaiwang.com_1
-      - dongtaiwang.com_2
-      - dongtaiwang.com_3
-      - dongtaiwang.com_4
+      - alvin9999.com
+      - alvin9999.com_1
+      - alvin9999.com_2
+      - alvin9999.com_3
+      - alvin9999.com_4
 rules:
   - MATCH,🚀 节点选择
 
